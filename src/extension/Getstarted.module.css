@@ -1,0 +1,38 @@
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-items: center;
+    justify-content:space-evenly ;
+    gap: 30px;
+}
+
+.first{
+    width: 500px;
+
+}
+.second{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;   
+    gap: 20px;   
+}
+.p{
+    font-weight: bold;
+    color: black;
+}
+.b{
+    margin-top:-20px;
+}
+.btn{
+    color:whitesmoke;
+    padding: 10px 15px;
+    background-color:rgb(181, 127, 231);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'montserrat';
+}
+.btn:hover{
+    background-color:rgb(118, 70, 163) ;
+}
